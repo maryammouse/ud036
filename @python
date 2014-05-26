@@ -1,0 +1,18 @@
+import movie
+
+toy_story = movie.Movie("Toy Story",
+                        "A tale about a boy and his toys that come to life.",
+                        "http://upload.wikimedia.org/wikipedia/en/thumb/1/13/Toy_Story.jpg/220px-Toy_Story.jpg",
+                        "https://www.youtube.com/watch?v=KYz2wyBy3kc&feature=kp")
+
+avatar = movie.Movie("Avatar",
+                     "A marine makes friends with aliens on another world",
+                     "http://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg",
+                     "http://www.youtube.com/watch?v=cRdxXPV9GNQ")
+
+
+#print(toy_story.storyline)
+
+avatar.show_trailer()
+
+
